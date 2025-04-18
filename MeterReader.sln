@@ -13,11 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReader", "MeterReader\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
+		greeter.proto = greeter.proto
 		meterservice.proto = meterservice.proto
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService1", "WorkerService1\WorkerService1.csproj", "{EE9E9E67-1A0E-4E8F-A268-26B11036B45D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{DBB37FF4-641B-4A47-99FF-18CD770595FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +40,10 @@ Global
 		{EE9E9E67-1A0E-4E8F-A268-26B11036B45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE9E9E67-1A0E-4E8F-A268-26B11036B45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE9E9E67-1A0E-4E8F-A268-26B11036B45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB37FF4-641B-4A47-99FF-18CD770595FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB37FF4-641B-4A47-99FF-18CD770595FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB37FF4-641B-4A47-99FF-18CD770595FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB37FF4-641B-4A47-99FF-18CD770595FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +52,7 @@ Global
 		{555A439F-C31B-4B8B-B7B4-3D249AE78DC5} = {3354F1FC-F5ED-4575-968E-00EDC820E357}
 		{D7F44834-1CD6-46D3-AE27-139D34CD2296} = {3354F1FC-F5ED-4575-968E-00EDC820E357}
 		{EE9E9E67-1A0E-4E8F-A268-26B11036B45D} = {556BF8F4-270F-4B9C-BCE9-A8F78D4889BE}
+		{DBB37FF4-641B-4A47-99FF-18CD770595FB} = {556BF8F4-270F-4B9C-BCE9-A8F78D4889BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75381036-B329-40BB-8569-3CEF1FEFCF88}

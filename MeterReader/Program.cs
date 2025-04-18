@@ -70,6 +70,7 @@ static void SetupMiddleware(WebApplication webApp)
     webApp.MapRazorPages();
 
     webApp.MapGrpcService<MeterReadingService>();
+    webApp.MapGrpcService<GreeterService>();
 }
 
 
